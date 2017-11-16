@@ -10,7 +10,7 @@ import Foundation
 
 //Swipe Method: Checks if the guest in allowed access to certain areas.
 
-func guessAccess(guest: Guest, toArea: Area) {
+func guestAccess(guest: Guest, toArea: Area) {
     if guest.guestType == .classicGuest && toArea == Area.amusement {
         print("Valid Access")
     } else if guest.guestType == .vipGuest && toArea == Area.amusement {
