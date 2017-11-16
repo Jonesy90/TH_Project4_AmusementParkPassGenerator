@@ -17,6 +17,11 @@
 		B23315AD1FBDB4F100FBFA95 /* InputError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315AC1FBDB4F100FBFA95 /* InputError.swift */; };
 		B23315AF1FBDB6AE00FBFA95 /* AreaAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315AE1FBDB6AE00FBFA95 /* AreaAccess.swift */; };
 		B23315B11FBDB73600FBFA95 /* QueueAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315B01FBDB73600FBFA95 /* QueueAccess.swift */; };
+		B23315B31FBDBADA00FBFA95 /* DiscountAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315B21FBDBADA00FBFA95 /* DiscountAccess.swift */; };
+		B23315B51FBDBB1000FBFA95 /* PersonalInformationRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315B41FBDBB1000FBFA95 /* PersonalInformationRequired.swift */; };
+		B23315B71FBDBC3B00FBFA95 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315B61FBDBC3B00FBFA95 /* Guest.swift */; };
+		B23315B91FBDBE7300FBFA95 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315B81FBDBE7300FBFA95 /* DateFormatter.swift */; };
+		B23315BB1FBDBFF700FBFA95 /* TestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315BA1FBDBFF700FBFA95 /* TestCases.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +58,11 @@
 		B23315AC1FBDB4F100FBFA95 /* InputError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputError.swift; sourceTree = "<group>"; };
 		B23315AE1FBDB6AE00FBFA95 /* AreaAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AreaAccess.swift; sourceTree = "<group>"; };
 		B23315B01FBDB73600FBFA95 /* QueueAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QueueAccess.swift; sourceTree = "<group>"; };
+		B23315B21FBDBADA00FBFA95 /* DiscountAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountAccess.swift; sourceTree = "<group>"; };
+		B23315B41FBDBB1000FBFA95 /* PersonalInformationRequired.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationRequired.swift; sourceTree = "<group>"; };
+		B23315B61FBDBC3B00FBFA95 /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
+		B23315B81FBDBE7300FBFA95 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
+		B23315BA1FBDBFF700FBFA95 /* TestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCases.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +96,11 @@
 				B23315AC1FBDB4F100FBFA95 /* InputError.swift */,
 				B23315AE1FBDB6AE00FBFA95 /* AreaAccess.swift */,
 				B23315B01FBDB73600FBFA95 /* QueueAccess.swift */,
+				B23315B21FBDBADA00FBFA95 /* DiscountAccess.swift */,
+				B23315B61FBDBC3B00FBFA95 /* Guest.swift */,
+				B23315BA1FBDBFF700FBFA95 /* TestCases.swift */,
+				B23315B81FBDBE7300FBFA95 /* DateFormatter.swift */,
+				B23315B41FBDBB1000FBFA95 /* PersonalInformationRequired.swift */,
 				B233157D1FBDB4DA00FBFA95 /* AmusementParkPassGenerator */,
 				B23315921FBDB4DA00FBFA95 /* AmusementParkPassGeneratorTests */,
 				B233159D1FBDB4DA00FBFA95 /* AmusementParkPassGeneratorUITests */,
@@ -268,10 +283,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B23315B91FBDBE7300FBFA95 /* DateFormatter.swift in Sources */,
+				B23315BB1FBDBFF700FBFA95 /* TestCases.swift in Sources */,
+				B23315B31FBDBADA00FBFA95 /* DiscountAccess.swift in Sources */,
 				B23315811FBDB4DA00FBFA95 /* ViewController.swift in Sources */,
+				B23315B51FBDBB1000FBFA95 /* PersonalInformationRequired.swift in Sources */,
 				B23315B11FBDB73600FBFA95 /* QueueAccess.swift in Sources */,
 				B23315AD1FBDB4F100FBFA95 /* InputError.swift in Sources */,
 				B23315AF1FBDB6AE00FBFA95 /* AreaAccess.swift in Sources */,
+				B23315B71FBDBC3B00FBFA95 /* Guest.swift in Sources */,
 				B233157F1FBDB4DA00FBFA95 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -439,6 +459,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TZP8288QD;
 				INFOPLIST_FILE = AmusementParkPassGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Jones.AmusementParkPassGenerator";
@@ -453,6 +474,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7TZP8288QD;
 				INFOPLIST_FILE = AmusementParkPassGenerator/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Michael-Jones.AmusementParkPassGenerator";
