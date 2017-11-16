@@ -56,34 +56,42 @@ class Guest: AreaAccess, QueueAccess, DiscountAccess {
     
     func childAgeChecker() throws {
         if self.guestType == .freeChildGuest {
-            guard let birthday = self.birthday, let childBirthdayYear = dateFormatter.date(from: birthday) else {
-                throw InputError.ageError
-            }
-            
-            var birthdayYear = Calendar.current.dateComponents([.year], from: childBirthdayYear).year!
-            
-            var currentYear = Calendar.current.dateComponents([.year], from: todaysDate).year!
-            
-            var childsAge: Int {
-                return currentYear - birthdayYear
-            }
-            
             /*
-             TODO: Check day & month as well (e.g. 5 years old, 2 months and 1 day - this would be over 5 years old).
+             1. Checks if the 'guesType' is equal to 'freeChildGuest'.
              */
-            
-            if childsAge <= 5 {
-                print("Young Enough")
-            } else {
-                print("Too Old")
-                throw InputError.freeChildError
+            if self.guestType == .freeChildGuest {
+                
+                /*
+                 1. Checks if the birthday is available.
+                 1a. Not Available: Throw Error.
+                 1b. Is Available: Continue to check if the guest is below the age of 5.
+                 */
+                guard let birthday = self.birthday, let childBirthday = dateFormatter.date(from: birthday) else {
+                    throw InputError.ageError
+                }
+                
+                let unitFlags:Set<Calendar.Component> = [.day, .month, .year, .calendar]
+                var nowDateComponents = Calendar.current.dateComponents(unitFlags, from: Date())
+                nowDateComponents.hour = 0
+                nowDateComponents.minute = 0
+                nowDateComponents.second = 0
+                nowDateComponents.nanosecond = 0
+                
+                nowDateComponents.year = nowDateComponents.year! - 5
+                
+                let fiveYearsAgo = nowDateComponents.date!
+                
+                if childBirthday > fiveYearsAgo {
+                    print("Valid Access")
+                } else {
+                    print("Child Guest Too Old")
+                    throw InputError.freeChildError
+                }
             }
+            
+            throw InputError.freeChildError
             
         }
+    
     }
-    
-    
-    
-    
-    
 }
