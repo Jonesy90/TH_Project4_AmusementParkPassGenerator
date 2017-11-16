@@ -12,7 +12,7 @@ protocol DiscountAccess {
     var hasDiscount: Bool { get }
 }
 
-enum Discount {
+enum Discounts {
     case vipGuestFoodDiscount
     case vipGuestMerchandiseDiscount
     case foodServiceFoodDiscount, maintanceServiceFoodDiscount, rideServiceFoodDiscount

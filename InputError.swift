@@ -13,4 +13,5 @@ enum InputError: Error {
     case lastNameMissingError
     case freeChildError
     case ageError
+    case birthdayMissingError
 }

@@ -9,7 +9,7 @@
 import Foundation
 
 var dateFormatter = DateFormatter()
-dateFormatter.dateFormat = "dd-MM-yyyy"
-dateFormatter.timeZone = TimeZone(secondsFromGMT: 0)
+//dateFormatter.dateFormat = "dd-MM-yyyy"
+//dateFormatter.timeZone = TimeZone(secondsFromGMT: 0)
 let todaysDate = Date()
 

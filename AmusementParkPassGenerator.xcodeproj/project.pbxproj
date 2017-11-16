@@ -20,8 +20,15 @@
 		B23315B31FBDBADA00FBFA95 /* DiscountAccess.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315B21FBDBADA00FBFA95 /* DiscountAccess.swift */; };
 		B23315B51FBDBB1000FBFA95 /* PersonalInformationRequired.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315B41FBDBB1000FBFA95 /* PersonalInformationRequired.swift */; };
 		B23315B71FBDBC3B00FBFA95 /* Guest.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315B61FBDBC3B00FBFA95 /* Guest.swift */; };
-		B23315B91FBDBE7300FBFA95 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315B81FBDBE7300FBFA95 /* DateFormatter.swift */; };
 		B23315BB1FBDBFF700FBFA95 /* TestCases.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315BA1FBDBFF700FBFA95 /* TestCases.swift */; };
+		B23315BD1FBDC05900FBFA95 /* Employee.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315BC1FBDC05900FBFA95 /* Employee.swift */; };
+		B23315BF1FBDC40B00FBFA95 /* BirthdayCheckerSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315BE1FBDC40B00FBFA95 /* BirthdayCheckerSwipe.swift */; };
+		B23315C11FBDC60700FBFA95 /* GuestAccessSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315C01FBDC60700FBFA95 /* GuestAccessSwipe.swift */; };
+		B23315C31FBDC6BC00FBFA95 /* EmployeeAccessSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315C21FBDC6BC00FBFA95 /* EmployeeAccessSwipe.swift */; };
+		B23315C51FBDC91C00FBFA95 /* FastTrackAccessSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315C41FBDC91C00FBFA95 /* FastTrackAccessSwipe.swift */; };
+		B23315C71FBDC97A00FBFA95 /* GuestDiscountSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315C61FBDC97A00FBFA95 /* GuestDiscountSwipe.swift */; };
+		B23315C91FBDCB4900FBFA95 /* EmployeeDiscountSwipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315C81FBDCB4900FBFA95 /* EmployeeDiscountSwipe.swift */; };
+		B23315CB1FBDCDDC00FBFA95 /* DateFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = B23315CA1FBDCDDC00FBFA95 /* DateFormatter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,8 +68,15 @@
 		B23315B21FBDBADA00FBFA95 /* DiscountAccess.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscountAccess.swift; sourceTree = "<group>"; };
 		B23315B41FBDBB1000FBFA95 /* PersonalInformationRequired.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationRequired.swift; sourceTree = "<group>"; };
 		B23315B61FBDBC3B00FBFA95 /* Guest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Guest.swift; sourceTree = "<group>"; };
-		B23315B81FBDBE7300FBFA95 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 		B23315BA1FBDBFF700FBFA95 /* TestCases.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCases.swift; sourceTree = "<group>"; };
+		B23315BC1FBDC05900FBFA95 /* Employee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Employee.swift; sourceTree = "<group>"; };
+		B23315BE1FBDC40B00FBFA95 /* BirthdayCheckerSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BirthdayCheckerSwipe.swift; sourceTree = "<group>"; };
+		B23315C01FBDC60700FBFA95 /* GuestAccessSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestAccessSwipe.swift; sourceTree = "<group>"; };
+		B23315C21FBDC6BC00FBFA95 /* EmployeeAccessSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeAccessSwipe.swift; sourceTree = "<group>"; };
+		B23315C41FBDC91C00FBFA95 /* FastTrackAccessSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FastTrackAccessSwipe.swift; sourceTree = "<group>"; };
+		B23315C61FBDC97A00FBFA95 /* GuestDiscountSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuestDiscountSwipe.swift; sourceTree = "<group>"; };
+		B23315C81FBDCB4900FBFA95 /* EmployeeDiscountSwipe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeDiscountSwipe.swift; sourceTree = "<group>"; };
+		B23315CA1FBDCDDC00FBFA95 /* DateFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateFormatter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,13 +107,20 @@
 		B23315721FBDB4DA00FBFA95 = {
 			isa = PBXGroup;
 			children = (
+				B23315CA1FBDCDDC00FBFA95 /* DateFormatter.swift */,
 				B23315AC1FBDB4F100FBFA95 /* InputError.swift */,
 				B23315AE1FBDB6AE00FBFA95 /* AreaAccess.swift */,
 				B23315B01FBDB73600FBFA95 /* QueueAccess.swift */,
 				B23315B21FBDBADA00FBFA95 /* DiscountAccess.swift */,
 				B23315B61FBDBC3B00FBFA95 /* Guest.swift */,
+				B23315BC1FBDC05900FBFA95 /* Employee.swift */,
+				B23315BE1FBDC40B00FBFA95 /* BirthdayCheckerSwipe.swift */,
+				B23315C01FBDC60700FBFA95 /* GuestAccessSwipe.swift */,
+				B23315C21FBDC6BC00FBFA95 /* EmployeeAccessSwipe.swift */,
+				B23315C41FBDC91C00FBFA95 /* FastTrackAccessSwipe.swift */,
+				B23315C61FBDC97A00FBFA95 /* GuestDiscountSwipe.swift */,
+				B23315C81FBDCB4900FBFA95 /* EmployeeDiscountSwipe.swift */,
 				B23315BA1FBDBFF700FBFA95 /* TestCases.swift */,
-				B23315B81FBDBE7300FBFA95 /* DateFormatter.swift */,
 				B23315B41FBDBB1000FBFA95 /* PersonalInformationRequired.swift */,
 				B233157D1FBDB4DA00FBFA95 /* AmusementParkPassGenerator */,
 				B23315921FBDB4DA00FBFA95 /* AmusementParkPassGeneratorTests */,
@@ -283,13 +304,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B23315B91FBDBE7300FBFA95 /* DateFormatter.swift in Sources */,
+				B23315BF1FBDC40B00FBFA95 /* BirthdayCheckerSwipe.swift in Sources */,
+				B23315C31FBDC6BC00FBFA95 /* EmployeeAccessSwipe.swift in Sources */,
 				B23315BB1FBDBFF700FBFA95 /* TestCases.swift in Sources */,
 				B23315B31FBDBADA00FBFA95 /* DiscountAccess.swift in Sources */,
+				B23315BD1FBDC05900FBFA95 /* Employee.swift in Sources */,
 				B23315811FBDB4DA00FBFA95 /* ViewController.swift in Sources */,
+				B23315C51FBDC91C00FBFA95 /* FastTrackAccessSwipe.swift in Sources */,
+				B23315CB1FBDCDDC00FBFA95 /* DateFormatter.swift in Sources */,
 				B23315B51FBDBB1000FBFA95 /* PersonalInformationRequired.swift in Sources */,
+				B23315C11FBDC60700FBFA95 /* GuestAccessSwipe.swift in Sources */,
 				B23315B11FBDB73600FBFA95 /* QueueAccess.swift in Sources */,
+				B23315C91FBDCB4900FBFA95 /* EmployeeDiscountSwipe.swift in Sources */,
 				B23315AD1FBDB4F100FBFA95 /* InputError.swift in Sources */,
+				B23315C71FBDC97A00FBFA95 /* GuestDiscountSwipe.swift in Sources */,
 				B23315AF1FBDB6AE00FBFA95 /* AreaAccess.swift in Sources */,
 				B23315B71FBDBC3B00FBFA95 /* Guest.swift in Sources */,
 				B233157F1FBDB4DA00FBFA95 /* AppDelegate.swift in Sources */,
