@@ -16,15 +16,16 @@ var rideServiceEmployeeOne = try? Employee(employeeType: .rideServiceEmployee, f
 var maintenenceEmployeeOne = try? Employee(employeeType: .maintenanceEmployee, firstName: "Matthew", lastName: "Jones", streetAddress: "Something", city: "Something", zipCode: "Something", dateOfBirth: "01-01-1978")
 var managerEmployeeOne = try? Employee(employeeType: .managerEmployee, firstName: "Christopher", lastName: "Jones", streetAddress: "Something", city: "Something", zipCode: "Something", dateOfBirth: "05-03-1987")
 
+
+
 /*
  Employee Swipe Methods
  */
-
-//Employee Discount Swipe
 //employeeDiscount(foodServiceEmployeeOne)
 //employeeDiscount(rideServiceEmployeeOne)
 //employeeDiscount(maintenenceEmployeeOne)
 //employeeDiscount(managerEmployeeOne)
+
 
 /*
  Employee Access Swipe Methods
