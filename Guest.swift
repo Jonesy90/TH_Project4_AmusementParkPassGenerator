@@ -57,7 +57,7 @@ class Guest: AreaAccess, QueueAccess, DiscountAccess {
     func childAgeChecker() throws {
         if self.guestType == .freeChildGuest {
             /*
-             1. Checks if the 'guesType' is equal to 'freeChildGuest'.
+             Checks if the 'guesType' is equal to 'freeChildGuest'.
              */
             if self.guestType == .freeChildGuest {
                 

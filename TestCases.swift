@@ -11,4 +11,6 @@ import Foundation
 //Test Cases
 
 
+//Employe Test Cases
+var foodServiceEmployeeOne = try? Employee(employeeType: .foodServiceEmployee, firstName: nil, lastName: "Jones", streetAddress: "Something", city: "Something", zipCode: "Something", dateOfBirth: "03-12-1995")
 
